@@ -1,0 +1,23 @@
+<section class="einleitung">
+    <h1>Einleitung & Kontext</h1>
+    <p>
+      Die Europäische Union steht vor der Herausforderung, den Ressourcenverbrauch drastisch zu senken und den Übergang zu einer echten Kreislaufwirtschaft zu beschleunigen. Derzeit gehen noch zu viele wertvolle Materialien durch ineffizientes Recycling verloren.
+    </p>
+    <p>
+      Ziel der EU ist es, den Materialkreislauf zu stärken, Ressourcen zu schonen und Emissionen durch intelligentes Abfallmanagement zu reduzieren. Drei aktuelle Kennzahlen geben Einblick in den Status quo:
+    </p>
+  
+    <div class="stat-container">
+      <div class="stat-card" *ngFor="let stat of stats">
+        <div class="stat-value">{{ stat.value }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+        <div class="stat-source">
+          <a [href]="stat.source" target="_blank" rel="noopener noreferrer">🔍</a>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  

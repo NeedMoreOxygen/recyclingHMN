@@ -1,0 +1,15 @@
+<section class="timeline">
+    <h2>Zukunft & Innovation – EU-Regelungen</h2>
+    <div class="timeline-bar container-mit-scrollbar" >
+      <div class="timeline-step" *ngFor="let milestone of milestones">
+        <div class="circle"></div>
+        <div class="content">
+          <h3>{{ milestone.year }}</h3>
+          <strong>{{ milestone.title }}</strong>
+          <p>{{ milestone.description }}</p>
+          <a [href]="'https://' + milestone.source" target="_blank" title="Quelle: {{ milestone.source }}">🔗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  

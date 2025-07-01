@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Mechanisches Recycling",
+      "description": "Physikalische Zerkleinerung und Wiederaufbereitung von Abfällen ohne chemische Veränderung.",
+      "icon": "fa-recycle",
+      "tooltip": "Verfahren wie Schreddern, Waschen, Sortieren. Ideal für sortenreine Kunststoffe."
+    },
+    {
+      "title": "Chemisches Recycling",
+      "description": "Zerlegung von Kunststoffen in chemische Bausteine für neue Produkte.",
+      "icon": "fa-flask",
+      "tooltip": "Pyrolyse, Solvolyse oder Vergasung ermöglichen molekulare Rückgewinnung."
+    },
+    {
+      "title": "Closed-Loop Recycling",
+      "description": "Wiederverwendung eines Materials im selben Produktzyklus.",
+      "icon": "fa-sync",
+      "tooltip": "Material bleibt im Umlauf, z. B. PET-Flasche → neue PET-Flasche."
+    }
+  ]
+  

@@ -1,0 +1,24 @@
+<section class="resource-container">
+    <h2>Resources & Links</h2>
+  
+    <div class="filter">
+      <button
+        *ngFor="let category of categories"
+        (click)="setCategory(category)"
+        [class.active]="category === selectedCategory">
+        {{ category }}
+      </button>
+    </div>
+  
+    <div class="grid">
+      <div class="card" *ngFor="let res of filteredResources()">
+        <h3>{{ res.title }}</h3>
+        <p>{{ res.description }}</p>
+        <a [href]="res.link" target="_blank" rel="noopener noreferrer">
+          External Link
+          <span class="icon">🔗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  

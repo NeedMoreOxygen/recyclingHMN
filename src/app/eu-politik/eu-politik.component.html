@@ -1,0 +1,13 @@
+<section class="eu-politik">
+    <h1>Politik der Europäischen Union – Kreislaufwirtschaft & Abfallrecht</h1>
+    <p>Die EU verfolgt mit ambitionierten Maßnahmen eine nachhaltige Zukunft. Zwei zentrale Dokumente sind:</p>
+  
+    <div class="card-container">
+      <div class="card" *ngFor="let law of laws">
+        <h2>{{ law.title }}</h2>
+        <p>{{ law.description }}</p>
+        <a [href]="law.link" target="_blank" rel="noopener">Mehr erfahren</a>
+      </div>
+    </div>
+  </section>
+  

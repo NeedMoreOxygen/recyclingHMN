@@ -1,0 +1,52 @@
+:host {
+    display: block;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  
+  .card {
+    background-color: #262626;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    background-color: #333333;
+  }
+  
+  .card i {
+    font-size: 2rem;
+    color: #4eaaff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0.5rem 0;
+  }
+  
+  .card p {
+    color: #b0b0b0;
+    font-size: 0.95rem;
+  }
+  

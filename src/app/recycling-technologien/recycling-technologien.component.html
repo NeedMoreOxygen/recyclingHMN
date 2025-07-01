@@ -1,0 +1,17 @@
+<section class="technologie-section">
+    <h1 class="section-title">Recycling‑Technologien & Verfahren</h1>
+  
+    <div class="grid-container">
+      <div class="card" *ngFor="let verfahren of verfahren">
+        <div class="icon">{{ verfahren.icon }}</div>
+        <div class="title">
+          {{ verfahren.name }}
+          <span class="tooltip-icon">ℹ
+            <span class="tooltip-text">{{ verfahren.tooltip }}</span>
+          </span>
+        </div>
+        <p>{{ verfahren.description }}</p>
+      </div>
+    </div>
+  </section>
+  
