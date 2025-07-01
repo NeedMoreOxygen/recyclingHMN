@@ -1,27 +1,33 @@
-# Recycling
+Recycling - Angular Projekt
+Installation & Projektstart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Folge diesen Schritten, um Node.js, Angular zu installieren und das Projekt zu starten:
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Node.js installieren
+ Lade Node.js von der offiziellen Webseite herunter:
+ https://nodejs.org
+ Installiere die LTS-Version für dein Betriebssystem.
+ Überprüfe die Installation in der Konsole:
+ node -v
+ npm -v
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Angular CLI installieren
+ Installiere das Angular Command Line Interface global:
+ npm install -g @angular/cli
+ Prüfe die Installation:
+ ng version (version 17.3.8.)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ 
+3. Projekt starten
+ - Wechsle in das Projektverzeichnis (z. B. nach dem Klonen via Git):
+ cd mein-projekt
+ - Installiere die Abhängigkeiten:
+ npm install
+ - Starte den Entwicklungsserver:
+ ng serve
+ - Öffne den Browser und rufe auf:
+ http://localhost:4200
